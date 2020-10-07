@@ -1,0 +1,60 @@
+body, html{
+    margin:auto;
+    padding:10px;
+    color:rgb(0, 0, 0);
+    background:#ffffff;
+  
+    
+}
+
+#wrap{
+        width: 1250px;
+        margin: auto;
+        background:#99c;
+}
+
+#header{
+    background: #dddddd;
+}
+#nav{
+    background:#c99;
+}
+#main{
+    background: #99cc99;
+    float: left;
+    width: 375px;
+    height:400px;
+    background:#9c9;
+    margin:10px;
+    border:0px;
+    padding:10px;
+}
+#sidebar{
+    background: #cc99cc;
+    float: left;
+    width: 375px;
+    height:400px;
+    background:#c9c;
+    margin:10px;
+    border:0px;
+    padding:10px;
+   
+}
+#sidebar2{
+    background: seagreen;
+    float: left;
+    width: 375px;
+    height:400px;
+    background: seashell;
+    margin:10px;
+    border:0px;
+    padding:10px;
+}
+
+#footer{
+    background: #cccc99;
+    clear:both;
+    margin:auto;
+    border:auto;
+}
+
