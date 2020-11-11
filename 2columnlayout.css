@@ -3,28 +3,8 @@ body, html{
     padding:10px;
     color:rgb(0, 0, 0);
     background:#ffffff;
-  
-#ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
-width: 60px;
-background-color: #f1f1f1;
-}   
+}  
 
-}
-#li a{
-    display: block;
-    color: #000000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-/*link changes colour on hovor */
-#li a:hover{
-    background-color: #555555;
-    color: white;
-}
 #wrap{
         width: 100%;
         margin: auto;
@@ -37,6 +17,30 @@ background-color: #f1f1f1;
 #nav{
     background:#c99;
 }
+#ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 60px;
+background-color: #f1f1f1;
+}   
+
+
+#li a{
+    display: block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/*link changes colour on hovor */
+#li a:hover{
+    background-color: #555555;
+    color: white;
+}
+
+
+
 #main{
     background: #99cc99;
     float: left;
