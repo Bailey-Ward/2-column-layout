@@ -18,7 +18,7 @@ body, html{
     background:#c99;
 }
 #ul{
-list-style-type: none;
+list-style-type:none;
 margin: 0;
 padding: 0;
 width: 60px;
@@ -32,12 +32,15 @@ background-color: #f1f1f1;
     padding: 8px 16px;
     text-decoration: none;
 }
-
-/*link changes colour on hovor */
-#li a:hover{
-    background-color: #555555;
+#li a.active {
+    background-color: #4CAF50;
     color: white;
 }
+/*link changes colour on hovor */
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
 
 
 
