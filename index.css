@@ -15,8 +15,11 @@ body, html{
 }
 
 #header{
-    background: #dddddd;
+    background: #fae3d5;
     border:solid;
+    border-left: none;
+    border-right: none;
+    padding:8px;
 }
 #nav{
     background:#99c;
@@ -31,11 +34,14 @@ body, html{
 }   
 
 
-#li a{
-    display: block;
-    width: 60px;
+li a{
+    display: inline;
+    border:solid;
+    border-top-style: none;
     color: #000000;
-    padding: 8px 16px;
+    background-color: #99c;
+    padding: 8px;
+    float: left;
     text-decoration: none;
 }
 #li a.active {
@@ -87,6 +93,8 @@ li a:hover:not(.active) {
     clear:both;
     margin:auto;
     border:solid;
+    border-left: none;
+    border-right: none;
 }
 
 @media only screen and (max-width: 600px) {
