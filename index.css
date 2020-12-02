@@ -20,17 +20,17 @@ body, html{
 #nav{
     background:#99c;
 }
-#ul{
-list-style-type:none;
-margin: 0;
-padding: 0;
-width: 60px;
-background-color: #f1f1f1;
+#nav_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #99c;
 }   
 
 
 #li a{
     display: block;
+    width: 60px;
     color: #000000;
     padding: 8px 16px;
     text-decoration: none;
@@ -54,7 +54,7 @@ li a:hover:not(.active) {
     height:680px;
     background:#99C;
     margin:1%;
-    border:1%;
+    border:solid;
     padding:10px;
 }
 #sidebar{
@@ -64,7 +64,7 @@ li a:hover:not(.active) {
     height:680px;
     background:#99C;
     margin:1%;
-    border:1%;
+    border:solid;
     padding:10px;
    
 }
@@ -75,7 +75,7 @@ li a:hover:not(.active) {
     height:680px;
     background: #99c;
     margin:1%;
-    border:1%;
+    border:solid;
     padding:10px;
 }
 
@@ -83,7 +83,7 @@ li a:hover:not(.active) {
     background: #99c;
     clear:both;
     margin:auto;
-    border:auto;
+    border:solid;
 }
 
 @media only screen and (max-width: 600px) {
