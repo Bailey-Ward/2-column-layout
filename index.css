@@ -16,12 +16,15 @@ body, html{
 
 #header{
     background: #dddddd;
+    border:solid;
 }
 #nav{
     background:#99c;
 }
 #nav_ul{
     list-style-type: none;
+    border:solid;
+    border-top-style: none;
     margin: 0;
     padding: 0;
     background-color: #99c;
